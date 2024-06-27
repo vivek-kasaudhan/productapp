@@ -1,0 +1,48 @@
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  
+}
+.order-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: max(30%,500px);
+    
+}
+.order-left p{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.order-left .multi-fields{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+    
+   
+
+}
+.order-left input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 400;
+    outline: none;
+}
+.order-right{
+    width: 100%;
+    max-width: max(40%,500px);
+    margin-top: 50px;
+}
+@media (max-width:1050px){
+    .order{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+}
